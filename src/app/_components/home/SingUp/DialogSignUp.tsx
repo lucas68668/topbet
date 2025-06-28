@@ -64,6 +64,6 @@ const useModal = () => {
   }, []);
   return { open, onClose, onOpen };
 };
-
+DiaLogSignUpComp.displayName = "DiaLogSignUpComp";
 const DiaLogSignUp = Object.assign(DiaLogSignUpComp, { useModal });
 export default DiaLogSignUp;
