@@ -1,13 +1,5 @@
 import { cn } from "@/lib/utils";
-import {
-  ChevronRight,
-  CreditCard,
-  Gamepad2,
-  Gift,
-  Headphones,
-  StarIcon,
-  Zap,
-} from "lucide-react";
+import { ChevronRight, StarIcon } from "lucide-react";
 import Link from "next/link";
 
 const Rating = () => {

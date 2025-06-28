@@ -1,28 +1,22 @@
 "use client";
-import { Button } from "@/components/ui/button";
 import {
   Dialog,
-  DialogClose,
   DialogContent,
-  DialogDescription,
-  DialogFooter,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
 import { memo, useCallback, useState } from "react";
 import SignUpForm from "./SightUpForm";
 import ButtonJoin from "../ButtonJoin";
 import { XIcon } from "lucide-react";
 interface DiaLogSignUpCompProps {
   classname?: string;
-  open?: boolean;
+  // open?: boolean;
   onClose?: () => void;
 }
 const DiaLogSignUpComp: React.FC<DiaLogSignUpCompProps> = memo(
-  ({ open = false, onClose }) => {
+  ({ onClose }) => {
     const handleOpenChange = (open: boolean) => {
       if (open === false) {
         onClose?.();
@@ -64,6 +58,5 @@ const useModal = () => {
   }, []);
   return { open, onClose, onOpen };
 };
-
-const DiaLogSignUp = Object.assign(DiaLogSignUpComp, { useModal });
-export default DiaLogSignUp;
+DiaLogSignUpComp.displayName = "DiaLogSignUp";
+export default Object.assign(DiaLogSignUpComp, { useModal });

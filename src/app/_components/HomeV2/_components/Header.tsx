@@ -1,7 +1,6 @@
 import InputSearch from "@/components/base/InputSearch";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Info, InfoIcon, Search } from "lucide-react";
+import { InfoIcon, Search } from "lucide-react";
 
 const Header = () => {
   return (

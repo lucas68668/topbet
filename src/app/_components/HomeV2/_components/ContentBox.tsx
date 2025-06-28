@@ -1,11 +1,4 @@
-import {
-  ChevronRight,
-  CreditCard,
-  Gamepad2,
-  Gift,
-  Headphones,
-  Zap,
-} from "lucide-react";
+import { ChevronRight } from "lucide-react";
 import Link from "next/link";
 
 const ContentBox = () => {

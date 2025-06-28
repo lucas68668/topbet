@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Footer from "../common/footer";
 import Logo from "../common/logo";
 import Wheel from "../home/Wheel";
