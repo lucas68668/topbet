@@ -1,0 +1,10 @@
+.topbanner {
+  .banner-mobile {
+    max-height: 100svh;
+    object-fit: cover;
+  }
+  .banner-pc {
+    max-height: 100svh;
+    object-fit: cover;
+  }
+}
