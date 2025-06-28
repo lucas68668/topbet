@@ -1,0 +1,6 @@
+name = "topbet"
+compatibility_date = "2025-06-28"
+compatibility_flags = ["nodejs_compat"]
+
+[build]
+command = "yarn pages:build"
