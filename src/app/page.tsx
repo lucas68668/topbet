@@ -4,5 +4,5 @@ import HomeV2 from "./_components/HomeV2";
 export const runtime = "edge";
 
 export default function Home() {
-  return <HomeV2 />;
+  return <HomeV1 />;
 }
